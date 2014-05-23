@@ -6,4 +6,4 @@ class Event:
 		self.date = date
 
 	def __str__(self):
-		return " ".join([self.name, self.description, self.location, self.date]).replace(" ","%20")
+		return " ".join([self.name, self.description, self.location]).replace(" ","%20")
